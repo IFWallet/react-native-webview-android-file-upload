@@ -241,7 +241,7 @@ public class CustomWebViewModule extends ReactContextBaseJavaModule implements A
         List<String> listItems = new ArrayList<String>();
 
         if (acceptsImages(types)) {
-            listItems.add(TAKE_PHOTO);
+            // listItems.add(TAKE_PHOTO);
         }
         if (acceptsVideo(types)) {
             listItems.add(TAKE_VIDEO);
